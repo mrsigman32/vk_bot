@@ -34,7 +34,7 @@ def run_all(dictionary):
 
 
 servers = {}
-add_server(VkServer("P3112 server", "groups_list/P3112.json", '154573014', '6ea0f22a765091ccc6efeb1c1c3211c1c74c2b3224e22d26fb304485d488eae2c5bd8f86179f0359bae7b'), servers)
+add_server(VkServer("P3112 server", "groups_list/P3112.json", 'ID группы', 'токен'), servers)
 
 
 run_all(servers)
