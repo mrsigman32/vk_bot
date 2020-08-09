@@ -4,10 +4,7 @@ from server import Server
 from config import vk_api_token
 
 
-server1 = Server('6ea0f22a765091ccc6efeb1c1c3211c1c74c2b3224e22d26fb304485d488eae2c5bd8f86179f0359bae7b', '154573014', "server1")
-# vk_api_token - API токен, который мы ранее создали
-# 172998024 - id сообщества-бота
-# "server1" - имя сервера
+server1 = Server('тут токен', 'тут id', "server1")
 
 server1.test()
 
